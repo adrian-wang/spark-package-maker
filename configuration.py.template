@@ -1,0 +1,10 @@
+BASE_PATH = ''
+# BASE_PATH is your SPARK_HOME
+BASE_DATE = '2016-10-01'
+# BASE_DATE chooses commits after this date.
+OUTPUT_PATH = ''
+# OUTPUT_PATH is output directory
+OTHER_PATHS = ''
+# OTHER_PATHS including files copied to your new package, such as pom file. Use absolute paths here, and separate them with ','
+BLACKLIST = ['pom.xml']
+#BLACKLIST is a list listing files that should not appear in your new package
