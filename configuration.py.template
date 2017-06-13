@@ -1,6 +1,7 @@
 BASE_PATH = ''
 # BASE_PATH is your SPARK_HOME
 BASE_DATE = '2016-10-01'
+BASE_REMOTE_BRANCH = 'origin/master'
 # BASE_DATE chooses commits after this date.
 OUTPUT_PATH = ''
 # OUTPUT_PATH is output directory

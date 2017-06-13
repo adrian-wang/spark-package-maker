@@ -7,7 +7,7 @@ import configuration
 
 def read_history():
     os.chdir(configuration.BASE_PATH)
-    os.system('git merge spinach/master')
+    os.system('git merge ' + configuration.BASE_REMOTE_BRANCH)
     status, history = commands.getstatusoutput(
         'git log --pretty=format:"%H\t%an\t%ae\t%ad\t%s\t%P" --since ' + configuration.BASE_DATE)
     lines = history.split("\n")
